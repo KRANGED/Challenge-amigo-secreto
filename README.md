@@ -1,6 +1,6 @@
 # Challenge-amigo-secreto
 
-# 🎁 Amigo Secreto
+#  Amigo Secreto
 
 Este proyecto es una aplicación web sencilla para gestionar un juego de **Amigo Secreto**.  
 Permite agregar nombres a una lista y, posteriormente, sortear aleatoriamente uno de ellos.
