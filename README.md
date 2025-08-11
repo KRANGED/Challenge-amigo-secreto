@@ -41,30 +41,29 @@ Permite agregar nombres a una lista y, posteriormente, sortear aleatoriamente un
 #  Ejemplo de uso
 
 Ingresamos el nombre del amigo en la caja y presionamos el botón "Añadir".
-![Captura de ejemplo 1](apaso1.png)
+![Captura de ejemplo 1](paso1.png)
 
 Se registra un nuevo nombre y observamos la lista actual de los amigos registrados.
-![Captura de ejemplo 2](apaso1.png)
+![Captura de ejemplo 2](paso1.png)
 
 
 Se realiza el sorteo con las personas registradas oprimiendo el botón de "Sortear amigo".
-![Captura de ejemplo 3](apaso1.png)
+![Captura de ejemplo 3](paso1.png)
 
 # Diagrama de flujo
 
 ```mermaid
 flowchart TD
-    A[Usuario ingresa nombre] --> B{¿Nombre vacío?}
-    B -- Sí --> C[Mostrar alerta]
+    A[Usuario ingresa nombre] --> B{Nombre vacio?}
+    B -- Si --> C[Mostrar alerta]
     B -- No --> D[Agregar nombre al array amigos]
     D --> E[Actualizar lista HTML]
-    E --> F{¿Usuario presiona "Sortear amigo"?}
-    F -- Sí --> G{¿Lista vacía?}
-    G -- Sí --> H[Mostrar alerta de lista vacía]
-    G -- No --> I[Generar índice aleatorio]
+    E --> F{Presiona Sortear amigo?}
+    F -- Si --> G{Lista vacia?}
+    G -- Si --> H[Mostrar alerta de lista vacia]
+    G -- No --> I[Generar indice aleatorio]
     I --> J[Mostrar amigo secreto en pantalla]
 ```
-
 ## Notas
 
 - Si se intenta agregar un nombre vacío, se mostrará una alerta.
