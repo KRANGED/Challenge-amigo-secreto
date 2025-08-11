@@ -13,7 +13,7 @@ Permite agregar nombres a una lista y, posteriormente, sortear aleatoriamente un
 - Limpiar y actualizar la lista visualmente cada vez que se agrega un nuevo nombre.
 - Manejo de validaciones para evitar nombres vacíos y sorteos sin participantes.
 
-# 🛠️ Tecnologías usadas
+# 🛠 Tecnologías usadas
 
 - **HTML5** → Estructura de la interfaz.
 - **CSS3** → Estilos y diseño visual.
@@ -40,7 +40,15 @@ Permite agregar nombres a una lista y, posteriormente, sortear aleatoriamente un
 
 #  Ejemplo de uso
 
-![Captura de ejemplo](assets/amigo-secreto.png)
+Ingresamos el nombre del amigo en la caja y presionamos el botón "Añadir".
+![Captura de ejemplo 1](apaso1.png)
+
+Se registra un nuevo nombre y observamos la lista actual de los amigos registrados.
+![Captura de ejemplo 2](apaso1.png)
+
+
+Se realiza el sorteo con las personas registradas oprimiendo el botón de "Sortear amigo".
+![Captura de ejemplo 3](apaso1.png)
 
 # Diagrama de flujo
 
